@@ -11,7 +11,7 @@ dependencies:
   - pytorch=2.4.0
   - torchvision=0.19.0
   - torchaudio=2.4.0
-  - pytorch-cuda=12.4           # GPU acceleration
+  - pytorch-cuda=12.4           # GPU acceleration, might need to change based on your GPU
   - pyg                         # meta-package installs torch-geometric + extensions
   - networkx
   - pandas
@@ -24,6 +24,6 @@ dependencies:
   - pyarrow
   - pip
 
-### need to install these individually:
+### I had to install these individually (link needs to change if you use a different pytorch version):
 # pip install torch-scatter torch-sparse torch-geometric -f https://data.pyg.org/whl/torch-2.4.0+cu124.html
 # pip install torch-geometric-temporal
